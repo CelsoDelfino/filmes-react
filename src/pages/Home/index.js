@@ -16,7 +16,7 @@ function Home(){
                 params:{
                     api_key:'dde37cf6e1bf29ee3e7ba153b8fea918',
                     language: 'pt-BR',
-                    page:1,
+                    page:1 ,
                 }
             })
             console.log(response.data.results.slice(0,10));
